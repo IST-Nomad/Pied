@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    height: 84px;
+    background: #007765;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    margin-top: 20px;
+    background: url(../img/Vector.png) 50% 50% no-repeat,
+                url(../img/Vector\(1\).png) 0% 50% no-repeat;
+}
+.nav {
+    margin-top: 28px;
+}
+.nav a, .nav {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+.piper {
+    display: flex;
+    height: 403px;
+    background: url(../img/piper.png);
+}
+.piper h1 {
+    align-self: center;
+    margin: auto;
+    font-size: 72px;
+    font-weight: 500;
+    /* line-height: 84px; */
+    color: #FFFFFF;
+}
+.problem {
+    background: #EEEEEE;
+    height: 719px;
+
+}
+.problem h2 {
+    margin: 0;
+    padding-top: 48px;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 500;
+    color: #007765;
+}
+.problem p {
+    margin: 0;
+    padding-top: 16px;
+    padding-right: 20%;
+    padding-left: 20%;
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+}
